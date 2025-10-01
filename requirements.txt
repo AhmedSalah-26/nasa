@@ -3,9 +3,9 @@ uvicorn==0.27.1
 python-multipart==0.0.9
 PyPDF2==3.0.1
 transformers==4.38.1
-torch==2.8.0           # تم تعديل الإصدار
+torch==2.8.0
 langchain==0.1.0
-faiss-cpu==1.7.4
+faiss-cpu==1.12.0      # تم تعديل الإصدار
 huggingface-hub==0.20.3
 requests==2.31.0
 aiohttp==3.8.5
