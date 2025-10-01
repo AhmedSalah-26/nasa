@@ -44,8 +44,8 @@ app.add_middleware(
 # ===============================
 # Gemini API configuration
 # ===============================
-GEMINI_KEY = "YOUR_GEMINI_API_KEY"
-GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_KEY}"
+GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAcn9IK3b70MRqOqLcWfiZzc3j3aq3_gf4"
+
 
 # ===============================
 # Vectorstore & embeddings
