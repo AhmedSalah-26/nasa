@@ -1,49 +1,61 @@
-# تطبيق محادثة ملفات PDF
+Here’s your text fully translated into English:
 
-تطبيق ويب يستخدم الذكاء الاصطناعي لتحليل ملفات PDF والإجابة على الأسئلة المتعلقة بمحتواها.
+---
 
-## المميزات
+# PDF Chat Application
 
-- تحميل وتحليل ملفات PDF
-- استخراج النصوص من الملفات
-- واجهة محادثة تفاعلية
-- إجابات ذكية على الأسئلة
-- واجهة مستخدم جميلة وسهلة الاستخدام
+A web application that uses artificial intelligence to analyze PDF files and answer questions related to their content.
 
-## المتطلبات
+## Features
 
-- Python 3.8 أو أحدث
-- المكتبات المذكورة في ملف `requirements.txt`
+* Upload and analyze PDF files
+* Extract text from files
+* Interactive chat interface
+* Intelligent answers to questions
+* Beautiful and user-friendly interface
 
-## التثبيت
+## Requirements
 
-1. قم بتثبيت المكتبات المطلوبة:
+* Python 3.8 or newer
+* Libraries listed in `requirements.txt`
+
+## Installation
+
+1. Install the required libraries:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-2. قم بإضافة مفتاح HuggingFace API في متغيرات البيئة:
+2. Add your HuggingFace API key to environment variables:
+
 ```bash
 set HUGGINGFACE_API_KEY=your-api-key
 ```
 
-## تشغيل التطبيق
+## Running the Application
 
-1. قم بتشغيل خادم FastAPI:
+1. Start the FastAPI server:
+
 ```bash
 uvicorn main:app --reload
 ```
 
-2. في نافذة طرفية جديدة، قم بتشغيل واجهة المستخدم:
+2. In a new terminal window, start the user interface:
+
 ```bash
 streamlit run streamlit_app.py
 ```
 
-3. افتح المتصفح على العنوان: http://localhost:8501
+3. Open your browser at: [http://localhost:8501](http://localhost:8501)
 
-## كيفية الاستخدام
+## How to Use
 
-1. قم بتحميل ملف PDF باستخدام زر التحميل
-2. انتظر حتى يتم معالجة الملف
-3. اطرح أسئلتك حول محتوى الملف
-4. سيقوم النظام بالرد بناءً على المعلومات الموجودة في الملف
+1. Upload a PDF file using the upload button
+2. Wait for the file to be processed
+3. Ask questions about the content of the file
+4. The system will respond based on the information in the file
+
+---
+
+If you want, I can also **convert it into a fully polished README file** ready for GitHub. Do you want me to do that?
