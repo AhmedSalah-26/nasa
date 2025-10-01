@@ -12,3 +12,5 @@ aiohttp==3.8.5        # متوافق تمامًا مع Python 3.11
 beautifulsoup4==4.12.2
 biopython==1.81
 pypdf==3.14.0
+sentence-transformers==2.2.2
+
