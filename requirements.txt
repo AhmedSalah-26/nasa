@@ -8,7 +8,7 @@ langchain==0.1.0
 faiss-cpu==1.12.0
 huggingface-hub==0.20.3
 requests==2.31.0
-aiohttp==3.9.9        # تم تعديل الاصدار ليكون متوافق مع Python 3.13
+aiohttp==3.8.5        # متوافق تمامًا مع Python 3.11
 beautifulsoup4==4.12.2
 biopython==1.81
 pypdf==3.14.0
